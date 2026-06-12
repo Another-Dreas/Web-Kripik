@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keripik Pisang Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Bilah Navigasi (Sticky) -->
+    <nav class="bilah-navigasi" id="navigasi">
+        <div class="wadah navigasi-atas">
+            <a href="#" class="logo-merek">PisangKu</a>
+            
+            <div class="menu-burger" id="tombol-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="tautan-navigasi" id="menu-navigasi">
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Galeri</a></li>
+                <li><a href="#">Kontak</a></li>
+                <!-- Perbaikan khusus mobile -->
+                <li class="wadah-tombol-mobile"><a href="#" class="tombol-menu-mobile">Beli Sekarang</a></li>
+            </ul>
+            <button class="tombol tombol-putih tombol-desktop">Beli Sekarang</button>
+        </div>
+    </nav>
+
+    <!-- Bagian Utama (Hero) -->
+    <header class="bagian-pahlawan latar-kuning">
+        <div class="teks-latar">Pisang</div>
+        
+        <div class="wadah konten-utama elemen-muncul">
+            <div class="teks-utama">
+                <h1 class="judul-besar">Keripik Pisang<br>Kualitas Premium</h1>
+                <p class="deskripsi-utama">Lezat, renyah, dan terbuat dari pisang pilihan terbaik. Rasakan perpaduan sempurna antara rasa manis alami dan kerenyahan di setiap gigitan.</p>
+                <button class="tombol tombol-putih">Jelajahi Lebih</button>
+            </div>
+            <div class="gambar-utama">
+                <img src="https://loremflickr.com/600/600/banana,snack/all" alt="Camilan Keripik Pisang">
+            </div>
+        </div>
+    </header>
+
+    <div class="transisi-gelombang latar-kuning">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#ffffff" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <!-- Bagian Tentang Kami -->
+    <section class="bagian-tentang latar-putih">
+        <div class="wadah elemen-muncul">
+            <div class="baris-konten">
+                <div class="kolom-gambar">
+                    <img src="https://loremflickr.com/500/400/girl,eating,chips/all" alt="Menikmati camilan">
+                </div>
+                <div class="kolom-teks">
+                    <h2 class="judul-bagian">Siapa Kami</h2>
+                    <p>Kami berdedikasi untuk menghadirkan camilan terbaik yang terbuat dari 100% bahan alami. Keripik pisang kami diiris dengan hati-hati dan dimasak sempurna untuk mengunci rasa.</p>
+                    <button class="tombol tombol-kuning">Baca Selengkapnya</button>
+                </div>
+            </div>
+            <div class="baris-konten baris-terbalik">
+                <div class="kolom-gambar">
+                    <img src="https://loremflickr.com/500/400/ingredients,banana/all" alt="Bahan alami berkualitas">
+                </div>
+                <div class="kolom-teks">
+                    <h2 class="judul-bagian">Bahan Alami</h2>
+                    <p>Setiap bungkus berisi pisang yang dipetik langsung dari perkebunan lokal. Kami memastikan proses kami memenuhi standar kualitas tanpa pengawet buatan.</p>
+                    <button class="tombol tombol-kuning">Proses Kami</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="transisi-gelombang latar-putih">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#fdb813" d="M0,64L80,53.3C160,43,320,21,480,26.7C640,32,800,64,960,69.3C1120,75,1280,53,1360,42.7L1440,32L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <!-- Bagian Produk Unggulan (Desain Diperbaiki) -->
+    <section class="bagian-produk latar-kuning">
+        <div class="wadah elemen-muncul">
+            <h2 class="judul-bagian teks-tengah teks-putih">Produk Unggulan Kami</h2>
+            <!-- Diubah menjadi 3 kolom rata agar terlihat lebih seimbang dan menarik -->
+            <div class="kisi-produk tiga-kolom">
+                <div class="kartu-produk latar-hijau-pudar">
+                    <div class="label-produk label-terlaris">Terlaris</div>
+                    <div class="wadah-gambar-produk">
+                        <img src="https://loremflickr.com/300/300/chips,yellow/all" alt="Keripik Original" class="gambar-produk">
+                    </div>
+                    <h3 class="nama-produk">Keripik Original</h3>
+                    <p class="deskripsi-produk">Irisan pisang manis dan renyah asli.</p>
+                    <div class="meta-produk">
+                        <span class="harga-produk">Rp 15.000</span>
+                        <button class="tombol tombol-kuning tombol-kecil">Beli</button>
+                    </div>
+                </div>
+                
+                <div class="kartu-produk latar-biru-pudar">
+                    <div class="label-produk label-pedas">Hot!</div>
+                    <div class="wadah-gambar-produk">
+                        <img src="https://loremflickr.com/300/300/chips,spicy/all" alt="Keripik Pedas" class="gambar-produk">
+                    </div>
+                    <h3 class="nama-produk">Keripik Pedas</h3>
+                    <p class="deskripsi-produk">Sentuhan cabai dan rempah yang sempurna.</p>
+                    <div class="meta-produk">
+                        <span class="harga-produk">Rp 17.000</span>
+                        <button class="tombol tombol-kuning tombol-kecil">Beli</button>
+                    </div>
+                </div>
+
+                <div class="kartu-produk latar-kuning-pudar">
+                    <div class="label-produk label-baru">Baru</div>
+                    <div class="wadah-gambar-produk">
+                        <img src="https://loremflickr.com/300/300/chips,chocolate/all" alt="Cokelat Lumer" class="gambar-produk">
+                    </div>
+                    <h3 class="nama-produk">Lapis Cokelat</h3>
+                    <p class="deskripsi-produk">Dibalut dengan cokelat premium lezat.</p>
+                    <div class="meta-produk">
+                        <span class="harga-produk">Rp 22.000</span>
+                        <button class="tombol tombol-kuning tombol-kecil">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="transisi-gelombang latar-kuning">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#ffffff" d="M0,64L80,53.3C160,43,320,21,480,26.7C640,32,800,64,960,69.3C1120,75,1280,53,1360,42.7L1440,32L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <!-- Highlight Organik -->
+    <section class="bagian-sorotan latar-putih">
+        <div class="teks-latar">Keripik</div>
+        <div class="wadah elemen-muncul">
+            <div class="baris-konten">
+                <div class="kolom-gambar tanpa-latar">
+                    <img src="https://loremflickr.com/600/500/organic,snack/all" alt="Keripik Organik">
+                </div>
+                <div class="kolom-teks">
+                    <h2 class="judul-bagian">Keripik Pisang Organik</h2>
+                    <p>Produk andalan kami. Ditanam secara organik dan diproses dengan sangat hati-hati untuk menjaga nutrisi dan rasa. Bebas gluten, vegan, dan luar biasa lezat.</p>
+                    <ul class="daftar-fitur">
+                        <li>✓ 100% Organik Alami</li>
+                        <li>✓ Tanpa Gula Tambahan</li>
+                        <li>✓ Sumber Kalium Tinggi</li>
+                    </ul>
+                    <button class="tombol tombol-kuning">Lihat Detail</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="transisi-gelombang latar-putih">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#8cc63f" d="M0,96L80,85.3C160,75,320,53,480,53.3C640,53,800,75,960,80C1120,85,1280,64,1360,53.3L1440,43L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <!-- Bagian Varian Rasa (Menjadi 6 Produk) -->
+    <section class="bagian-varian latar-hijau">
+        <div class="wadah elemen-muncul">
+            <h2 class="judul-bagian teks-tengah teks-putih">Berbagai Pilihan Rasa</h2>
+            <div class="kisi-produk tiga-kolom">
+                <!-- Produk 1 -->
+                <div class="kartu-produk kartu-kecil">
+                    <div class="wadah-gambar-produk"><img src="https://loremflickr.com/200/200/caramel,snack/all" alt="Karamel" class="gambar-produk-kecil"></div>
+                    <h3 class="nama-produk">Karamel Manis</h3>
+                    <div class="meta-produk"><span class="harga-produk">Rp 18.000</span><button class="tombol tombol-kuning tombol-mini">Tambah</button></div>
+                </div>
+                <!-- Produk 2 -->
+                <div class="kartu-produk kartu-kecil">
+                    <div class="wadah-gambar-produk"><img src="https://loremflickr.com/200/200/cheese,snack/all" alt="Keju" class="gambar-produk-kecil"></div>
+                    <h3 class="nama-produk">Keju Gurih</h3>
+                    <div class="meta-produk"><span class="harga-produk">Rp 18.000</span><button class="tombol tombol-kuning tombol-mini">Tambah</button></div>
+                </div>
+                <!-- Produk 3 -->
+                <div class="kartu-produk kartu-kecil">
+                    <div class="wadah-gambar-produk"><img src="https://loremflickr.com/200/200/bbq,snack/all" alt="BBQ" class="gambar-produk-kecil"></div>
+                    <h3 class="nama-produk">Sapi Panggang</h3>
+                    <div class="meta-produk"><span class="harga-produk">Rp 18.000</span><button class="tombol tombol-kuning tombol-mini">Tambah</button></div>
+                </div>
+                <!-- Produk 4 -->
+                <div class="kartu-produk kartu-kecil">
+                    <div class="wadah-gambar-produk"><img src="https://loremflickr.com/200/200/strawberry,snack/all" alt="Stroberi" class="gambar-produk-kecil"></div>
+                    <h3 class="nama-produk">Stroberi</h3>
+                    <div class="meta-produk"><span class="harga-produk">Rp 18.000</span><button class="tombol tombol-kuning tombol-mini">Tambah</button></div>
+                </div>
+                <!-- Produk 5 -->
+                <div class="kartu-produk kartu-kecil">
+                    <div class="wadah-gambar-produk"><img src="https://loremflickr.com/200/200/matcha,snack/all" alt="Matcha" class="gambar-produk-kecil"></div>
+                    <h3 class="nama-produk">Matcha Greentea</h3>
+                    <div class="meta-produk"><span class="harga-produk">Rp 19.000</span><button class="tombol tombol-kuning tombol-mini">Tambah</button></div>
+                </div>
+                <!-- Produk 6 -->
+                <div class="kartu-produk kartu-kecil">
+                    <div class="wadah-gambar-produk"><img src="https://loremflickr.com/200/200/vanilla,snack/all" alt="Vanilla" class="gambar-produk-kecil"></div>
+                    <h3 class="nama-produk">Vanilla Susu</h3>
+                    <div class="meta-produk"><span class="harga-produk">Rp 18.000</span><button class="tombol tombol-kuning tombol-mini">Tambah</button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="transisi-gelombang latar-hijau">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#fdb813" d="M0,64L80,74.7C160,85,320,107,480,101.3C640,96,800,64,960,48C1120,32,1280,32,1360,32L1440,32L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <!-- Bagian Statistik -->
+    <section class="bagian-statistik latar-kuning">
+        <div class="wadah elemen-muncul">
+            <div class="kisi-statistik">
+                <div class="item-statistik">
+                    <h3 class="angka-statistik">100+</h3>
+                    <p>Mitra Petani</p>
+                </div>
+                <div class="item-statistik">
+                    <h3 class="angka-statistik">50k+</h3>
+                    <p>Pelanggan Puas</p>
+                </div>
+                <div class="item-statistik">
+                    <h3 class="angka-statistik">15</h3>
+                    <p>Penghargaan</p>
+                </div>
+                <div class="item-statistik">
+                    <h3 class="angka-statistik">100%</h3>
+                    <p>Bahan Alami</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="transisi-gelombang latar-kuning">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#f9f9f9" d="M0,32L80,48C160,64,320,96,480,96C640,96,800,64,960,53.3C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <!-- Wrapper Latar Abu -->
+    <div class="pembungkus-abu latar-abu">
+        <!-- Bagian Proses -->
+        <section class="bagian-proses">
+            <div class="wadah teks-tengah elemen-muncul">
+                <h2 class="judul-bagian">Cara Pembuatan</h2>
+                <p class="sub-judul">Dari kebun kami, ke tangan Anda</p>
+                <div class="kisi-proses">
+                    <div class="kartu-proses">
+                        <div class="ikon-proses latar-kuning">1</div>
+                        <h3 class="judul-proses">Pemanenan</h3>
+                        <p>Kami memilih sendiri pisang matang terbaik dari petani lokal terpercaya.</p>
+                    </div>
+                    <div class="kartu-proses">
+                        <div class="ikon-proses latar-hijau">2</div>
+                        <h3 class="judul-proses">Pengolahan</h3>
+                        <p>Pisang diiris tipis, dikeringkan, dan digoreng perlahan menggunakan minyak alami.</p>
+                    </div>
+                    <div class="kartu-proses">
+                        <div class="ikon-proses latar-biru">3</div>
+                        <h3 class="judul-proses">Pengemasan</h3>
+                        <p>Dikemas rapat dalam plastik ramah lingkungan untuk menjaga kesegaran.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Testimoni -->
+        <section class="bagian-testimoni">
+            <div class="wadah elemen-muncul">
+                <h2 class="judul-bagian teks-tengah">Apa Kata Mereka</h2>
+                <div class="kisi-testimoni">
+                    <div class="kartu-testimoni">
+                        <div class="profil-pengguna">
+                            <img src="https://loremflickr.com/100/100/face,woman/all" alt="Sarah" class="foto-profil">
+                            <div class="info-pengguna">
+                                <h4>Siti Aminah</h4>
+                                <span>Ibu Rumah Tangga</span>
+                            </div>
+                        </div>
+                        <p class="teks-testimoni">"Keripik pisang paling enak yang pernah saya coba. Sangat renyah dan manisnya pas. Anak-anak saya sangat menyukainya!"</p>
+                    </div>
+                    <div class="kartu-testimoni">
+                        <div class="profil-pengguna">
+                            <img src="https://loremflickr.com/100/100/face,man/all" alt="Budi" class="foto-profil">
+                            <div class="info-pengguna">
+                                <h4>Budi Santoso</h4>
+                                <span>Karyawan Swasta</span>
+                            </div>
+                        </div>
+                        <p class="teks-testimoni">"Camilan wajib saat kerja lembur. Rasa pedasnya bikin melek dan bahannya terasa sangat alami. Recommended banget."</p>
+                    </div>
+                    <div class="kartu-testimoni">
+                        <div class="profil-pengguna">
+                            <img src="https://loremflickr.com/100/100/face,girl/all" alt="Rina" class="foto-profil">
+                            <div class="info-pengguna">
+                                <h4>Rina Melati</h4>
+                                <span>Mahasiswa</span>
+                            </div>
+                        </div>
+                        <p class="teks-testimoni">"Suka banget sama varian lapis cokelatnya. Cokelatnya nggak pelit dan lumer di mulut. Harganya juga ramah di kantong."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian FAQ -->
+        <section class="bagian-faq">
+            <div class="wadah elemen-muncul">
+                <h2 class="judul-bagian teks-tengah">Tanya Jawab (FAQ)</h2>
+                <div class="daftar-faq">
+                    <div class="item-faq">
+                        <h4 class="pertanyaan-faq">Berapa lama masa kedaluwarsa produk ini?</h4>
+                        <p class="jawaban-faq">Produk kami dapat bertahan hingga 6 bulan jika kemasan belum dibuka dan disimpan di tempat sejuk.</p>
+                    </div>
+                    <div class="item-faq">
+                        <h4 class="pertanyaan-faq">Apakah keripik ini aman untuk penderita maag?</h4>
+                        <p class="jawaban-faq">Untuk varian original dan manis sangat aman karena diolah secara alami. Hindari varian pedas jika Anda sensitif.</p>
+                    </div>
+                    <div class="item-faq">
+                        <h4 class="pertanyaan-faq">Apakah melayani pembelian grosir atau reseller?</h4>
+                        <p class="jawaban-faq">Tentu! Kami memiliki paket khusus untuk reseller dengan harga yang jauh lebih terjangkau. Silakan hubungi kami.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="transisi-gelombang latar-abu">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path fill="#ffffff" d="M0,64L80,53.3C160,43,320,21,480,26.7C640,32,800,64,960,69.3C1120,75,1280,53,1360,42.7L1440,32L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
+        </svg>
+    </div>
+
+    <!-- Bagian Kontak & Maps (Diperbaiki untuk Pin Merah) -->
+    <section class="bagian-kontak latar-putih">
+        <div class="wadah teks-tengah elemen-muncul">
+            <h2 class="judul-bagian">Temukan Kami di Sini</h2>
+            <p class="sub-judul">Kunjungi toko pusat kami atau hubungi kami untuk informasi lebih lanjut.</p>
+            
+            <div class="kisi-kontak">
+                <div class="info-kontak">
+                    <h4>Alamat Toko</h4>
+                    <p>Jl. Senopati No. 12, Kebayoran Baru<br>Jakarta Selatan, 12190</p>
+                    <br>
+                    <h4>Jam Operasional</h4>
+                    <p>Senin - Jumat: 08.00 - 20.00 WIB<br>Sabtu - Minggu: 09.00 - 18.00 WIB</p>
+                </div>
+                <div class="wadah-peta">
+                    <!-- Google Maps dengan titik kueri (q=) untuk memunculkan Pin Merah -->
+                    <iframe src="https://maps.google.com/maps?q=Jl.%20Senopati%20No.%2012,%20Kebayoran%20Baru,%20Jakarta%20Selatan&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catatan Kaki (Footer) -->
+    <footer class="catatan-kaki">
+        <div class="wadah">
+            <div class="kisi-footer">
+                <div class="kolom-footer">
+                    <h3 class="logo-footer">PisangKu</h3>
+                    <p class="deskripsi-footer">Menghadirkan camilan berbasis pisang alami dan paling lezat langsung dari kebun ke meja Anda.</p>
+                </div>
+                <div class="kolom-footer">
+                    <h4>Tautan Cepat</h4>
+                    <ul class="daftar-tautan">
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Produk Kami</a></li>
+                        <li><a href="#">Artikel & Berita</a></li>
+                        <li><a href="#">Karir</a></li>
+                    </ul>
+                </div>
+                <div class="kolom-footer">
+                    <h4>Dukungan</h4>
+                    <ul class="daftar-tautan">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Kebijakan Pengiriman</a></li>
+                        <li><a href="#">Pengembalian Dana</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                <div class="kolom-footer">
+                    <h4>Hubungi Kami</h4>
+                    <ul class="daftar-tautan">
+                        <li><a href="#">halo@pisangku.co.id</a></li>
+                        <li><a href="#">+62 812 3456 7890</a></li>
+                        <li><a href="#">Instagram: @pisangku.id</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hak-cipta">
+                &copy; 2026 PisangKu. Seluruh hak cipta dilindungi.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tombol WhatsApp Melayang -->
+    <a href="https://wa.me/6281234567890" target="_blank" class="tombol-wa-melayang" aria-label="Hubungi kami di WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 2a13.9 13.9 0 00-11.8 21.2L2 30l6.9-2.2A13.9 13.9 0 1016 2zm0 2.2A11.7 11.7 0 116.1 22.4l-.4-.6-4.1 1.3 1.3-4-.6-.5A11.7 11.7 0 0116 4.2zm-5.7 6.4c-.2 0-.6.1-.9.4s-1.1 1.1-1.1 2.6c0 1.5 1.1 3 1.3 3.3.2.2 2.2 3.4 5.3 4.8 2.1.9 2.9 1 4 .9s3.3-1.4 3.7-2.6.4-2.3.3-2.6c-.1-.2-.4-.4-.8-.6s-2.4-1.2-2.8-1.3c-.3-.1-.6-.2-.8.2s-1.1 1.3-1.3 1.6c-.2.2-.5.3-.8.1s-1.7-.6-3.2-2c-1.2-1.1-2-2.4-2.2-2.8-.2-.3 0-.5.2-.7l.6-.7c.2-.2.3-.4.4-.7s.1-.5 0-.7c-.1-.2-.9-2.2-1.2-3.1-.3-.8-.6-.7-.8-.7h-.7z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
