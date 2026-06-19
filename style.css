@@ -64,7 +64,7 @@ img { max-width: 100%; height: auto; display: block; border-radius: 8px;}
 .tautan-navigasi { display: flex; gap: 30px; align-items: center; }
 .tautan-navigasi a { color: var(--warna-putih); font-weight: 500; transition: opacity 0.3s; }
 .tautan-navigasi a:hover { opacity: 0.8; }
-.wadah-tombol-mobile { display: none; } /* Hanya tampil di mobile */
+.wadah-tombol-mobile { display: none; } 
 
 /* Menu Burger Styling */
 .menu-burger { display: none; flex-direction: column; cursor: pointer; gap: 6px; z-index: 1001; }
@@ -186,7 +186,6 @@ img { max-width: 100%; height: auto; display: block; border-radius: 8px;}
 .tombol-wa-melayang svg { width: 35px; height: 35px; fill: white; }
 .tombol-wa-melayang:hover { transform: scale(1.1) translateY(-5px); box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6); }
 
-/* Animasi Muncul JS */
 .elemen-muncul { opacity: 0; transform: translateY(40px); transition: opacity 0.8s ease-out, transform 0.8s ease-out; }
 .elemen-muncul.tampil { opacity: 1; transform: translateY(0); }
 
@@ -216,7 +215,7 @@ img { max-width: 100%; height: auto; display: block; border-radius: 8px;}
         width: 100%;
         background-color: var(--warna-kuning-gelap);
         flex-direction: column;
-        padding: 20px 0 30px 0; /* Tambah padding bawah */
+        padding: 20px 0 30px 0; 
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
         transition: clip-path 0.4s ease-in-out;
         box-shadow: 0 10px 15px rgba(0,0,0,0.1);
@@ -234,13 +233,13 @@ img { max-width: 100%; height: auto; display: block; border-radius: 8px;}
         font-weight: 700;
         font-size: 1rem;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        width: 80%; /* Agar tombol tidak terlalu penuh tapi tetap proporsional */
+        width: 80%;
     }
 
     /* Layout 1 Kolom untuk Mobile */
     .tiga-kolom, .kisi-proses, .kisi-testimoni, .kisi-footer { grid-template-columns: 1fr; }
     
-    /* Layout 2 Kolom untuk Statistik agar lebih hemat ruang */
+    /* Layout 2 Kolom */
     .kisi-statistik { grid-template-columns: repeat(2, 1fr); gap: 30px; }
     .angka-statistik { font-size: 2.5rem; }
 
@@ -248,7 +247,6 @@ img { max-width: 100%; height: auto; display: block; border-radius: 8px;}
     .deskripsi-footer { margin: 0 auto; }
     .gambar-utama img { max-height: 350px; }
     
-    /* Penyesuaian tombol WA agar tidak menutupi konten penting di mobile */
     .tombol-wa-melayang { width: 50px; height: 50px; bottom: 20px; right: 20px; }
     .tombol-wa-melayang svg { width: 30px; height: 30px; }
 }
